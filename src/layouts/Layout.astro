@@ -67,7 +67,7 @@ if (Astro.url.pathname === "/") {
         "@type": "SearchAction",
         target: {
             "@type": "EntryPoint",
-            urlTemplate: "https://vencord.dev/plugins#{plugin_name}",
+            urlTemplate: "https://scorncord.erroroliver.lol/plugins#{plugin_name}",
         },
         "query-input": "required name=plugin_name",
     };
@@ -78,7 +78,7 @@ if (Astro.url.pathname === "/") {
 <html lang="en">
     <!-- read if cute :3 -->
     <head>
-        <title>{title ? `${title} | Vencord` : "Vencord"}</title>
+        <title>{title ? `${title} | Scorncord` : "Scorncord"}</title>
 
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -93,14 +93,14 @@ if (Astro.url.pathname === "/") {
         />
 
         <meta name="description" content={description} />
-        <meta name="author" content="Vencord Contributors" />
+        <meta name="author" content="Scorncord Contributors" />
         <meta name="theme-color" content="#dd7878" />
 
         {
             opengraph !== false && (
                 <>
                     <meta name="og:type" content="website" />
-                    <meta name="og:title" content={title ?? "Vencord"} />
+                    <meta name="og:title" content={title ?? "Scorncord"} />
                     <meta name="og:description" content={description} />
                     <meta name="og:url" content={Astro.url} />
                     <meta
@@ -115,7 +115,7 @@ if (Astro.url.pathname === "/") {
         }
         {
             title && opengraph !== false && (
-                <meta name="og:site_name" content="Vencord" />
+                <meta name="og:site_name" content="Scorncord" />
             )
         }
 
