@@ -1,9 +1,9 @@
 ---
-title: Is there a mobile version of Vencord?
+title: Is there a mobile version of Scorncord?
 tags: android, ios, mobile, phone
 ---
 
-Technically yes, we have a very barebones app for android: [Vendroid](<https://github.com/Vencord/Vendroid>)
+Technically yes, we have a very barebones app for android: [Scorndroid](<https://github.com/Scorncord/Scorndroid>)
 However, it suffers from many issues and thus is not recommended for daily use (nor is it actively being worked on)
 
 Instead, we recommend the following alternatives:
