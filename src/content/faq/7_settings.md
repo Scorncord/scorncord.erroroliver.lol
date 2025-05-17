@@ -1,5 +1,5 @@
 ---
-title: How do I migrate my Vencord Settings from Canary to Stable (or vice versa)?
+title: How do I migrate my Scorncord Settings from Canary to Stable (or vice versa)?
 tags: settings, migrate
 ---
 
