@@ -7,37 +7,37 @@ import { MINUTES, cacheResponseFor } from "scripts/cache";
 
 const Repos = [
     {
-        name: "Vencord",
-        description: "Vencord's main repository containing all inbuilt plugins",
-        repo: "Vendicated/Vencord",
+        name: "Scorncord",
+        description: "Scorncord's main repository containing all inbuilt plugins",
+        repo: "Scorncord/Scorncord",
     },
     {
-        name: "Vencord Installer",
-        description: "Vencord's Installer",
-        repo: "Vencord/Installer",
+        name: "Scorncord Installer",
+        description: "Scorncord's Installer",
+        repo: "Scorncord/Installer",
     },
     {
-        name: "vencord.dev",
-        description: "Vencord's official website (the one you're currently on)",
-        repo: "Vencord/vencord.dev",
+        name: "scorncord.erroroliver.lol",
+        description: "Scorncord's official website (the one you're currently on)",
+        repo: "Scorncord/scorncord.erroroliver.lol",
     },
     {
-        name: "Vesktop",
+        name: "Scorntop",
         description:
-            "Vencord's standalone desktop app, offering you a more lightweight, faster and more secure solution for using Vencord",
-        repo: "Vencord/Vesktop",
+            "Scorncord's standalone desktop app, offering you a more lightweight, faster and more secure solution for using Scorncord",
+        repo: "Scorncord/Scorntop",
     },
     {
-        name: "Vencloud",
+        name: "Scorncloud",
         description:
-            "Vencord's Backend providing you with features like settings sync",
-        repo: "Vencord/Vencloud",
+            "Scorncord's Backend providing you with features like settings sync",
+        repo: "Scorncord/Scorncloud",
     },
     {
-        name: "venmic",
+        name: "scornmic",
         description:
-            "Native node module that powers Linux Audio screenshare on Vesktop",
-        repo: "Vencord/venmic",
+            "Native node module that powers Linux Audio screenshare on Scorntop",
+        repo: "Scorncord/scornmic",
     },
 ] satisfies Record<"name" | "description" | "repo", string>[];
 
@@ -77,10 +77,10 @@ cacheResponseFor(Astro.response, 20 * MINUTES);
 
 <Layout
     title="Source Code"
-    description="List of Source Code repositories for all Vencord projects"
+    description="List of Source Code repositories for all Scorncord projects"
 >
     <h1 class="p-page-title">Source Code</h1>
-    <p class="p-subtitle">Vencord's git repositories</p>
+    <p class="p-subtitle">Scorncord's git repositories</p>
 
     <div>
         {repoData.map(data => (data ? <RepoCard {...data} /> : null))}
