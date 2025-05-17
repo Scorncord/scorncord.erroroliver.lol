@@ -1,6 +1,6 @@
-# [Vencord Website](https://vencord.dev)
+# [Scorncord Website](scorncord.erroroliver.lol)
 
-Vencord's official website, written in Astro + Svelte ❤️
+Scorncord's official website, written in Astro + Svelte ❤️
 
 ## API routes
 
