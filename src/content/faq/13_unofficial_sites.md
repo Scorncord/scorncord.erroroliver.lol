@@ -1,9 +1,9 @@
 ---
-title: What are the official websites for Vencord?
+title: What are the official websites for Scorncord?
 tags: unofficial, official
 ---
 
-The only official website is `vencord.dev`, which can be confirmed on GitHub and the installer itself. We are not
+The only official website is `scorncord.erroroliver.lol`, which can be confirmed on GitHub and the installer itself. We are not
 affiliated with any other website, and any that claim to be or use our brand are malicious impersonators.
 
 If you have downloaded software offered by these sites, remove it as soon as possible, run a malware scan,
