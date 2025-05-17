@@ -1,6 +1,6 @@
 ---
-title: How do I uninstall Vencord?
+title: How do I uninstall Scorncord?
 tags: remove
 ---
 
-Vencord is uninstalled the same way you install it. Just use the "Uninstall" button instead
+Scorncord is uninstalled the same way you install it. Just use the "Uninstall" button instead
