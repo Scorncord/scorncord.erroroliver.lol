@@ -2,9 +2,9 @@ import type { APIRoute } from "astro";
 import { getEnv } from "scripts/env";
 
 const Repos = {
-    installer: "Vencord/Installer",
-    vencord: "Vendicated/Vencord",
-    "vencord-desktop": "Vencord/Desktop",
+    installer: "Scorncord/Installer",
+    vencord: "Scorncord/Scorncord",
+    "vencord-desktop": "Scorncord/Scorntop",
 };
 
 export const GET: APIRoute = async ({ params, locals }) => {
@@ -35,7 +35,7 @@ export const GET: APIRoute = async ({ params, locals }) => {
             headers: {
                 Accept: "application/vnd.github+json",
                 Authorization: `Bearer ${GITHUB_TOKEN}`,
-                "User-Agent": "https://github.com/Vencord/Website",
+                "User-Agent": "https://github.com/Vencord/scorncord.erroroliver.lol",
             },
         }
     );
