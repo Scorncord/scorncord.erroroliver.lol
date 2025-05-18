@@ -8,4 +8,4 @@ Scorncord's official website, written in Astro + Svelte ❤️
 
 ## Credits
 
-Main page splash logo created by Samara ([@ssalggnikool](https://github.com/ssalggnikool))
+Vencord main page splash logo created by Samara ([@ssalggnikool](https://github.com/ssalggnikool)), modified by [ErrorOliver](https://github.com/ErrorOliver2)
